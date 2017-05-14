@@ -47,14 +47,14 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-	public static final LogisimVersion VERSION = LogisimVersion.get(3, 0, 3);
+	public static final LogisimVersion VERSION = LogisimVersion.get(3, 0, 2); //중요:새로운 버전 출시할 경우, 수정하십시오.
 	public static final String VERSION_NAME = VERSION.toString();
 	public static final int COPYRIGHT_YEAR = 2017;
 	
 	public void start(Stage primaryStage) {
 		try{
-			String Ver = "3.0.3";
-			int VerInt = 3;
+			String Ver = "3.0.2"; //중요:새로운 버전 출시할 경우, 수정하십시오.
+			int VerInt = 2; //중요:새로운 버전 출시할 경우, 수정하십시오.
 			
 			URL url = new URL("http://logisimkr.pe.hu/downloads/Update.Info");
 			URLConnection urlCon = url.openConnection();
